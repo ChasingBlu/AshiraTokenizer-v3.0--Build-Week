@@ -1,0 +1,21 @@
+[package]
+name = "ashira_tokenizer_v3"
+version = "0.1.0"
+edition = "2024"
+license = "Apache-2.0"
+description = "AshiraTokenizer v3 deterministic u32 byte-level BPE foundation"
+
+[[bin]]
+name = "ashira"
+path = "src/main.rs"
+
+[dependencies]
+serde = { version = "=1.0.229", default-features = false, features = ["derive", "std"] }
+serde_json = { version = "=1.0.150", default-features = false, features = ["std"] }
+sha2 = { version = "=0.11.0", default-features = false }
+
+[profile.release]
+codegen-units = 1
+lto = true
+opt-level = 3
+panic = "abort"

@@ -1,0 +1,6 @@
+# Repository-local Rust build output.
+/target/
+
+# Repository-local generated tokenizer and demo outputs.
+/runs/
+/demo_runs/

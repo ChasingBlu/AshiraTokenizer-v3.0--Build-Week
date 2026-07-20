@@ -1,0 +1,5 @@
+# Preserve the approved artifact-contract bytes; keep whitespace checks strict elsewhere.
+docs/ARTIFACT_FORMAT_V3_U32.md whitespace=-blank-at-eol
+
+# Preserve governed demo-corpus bytes; keep whitespace checks strict elsewhere.
+demo/corpus/wikitext.txt whitespace=-blank-at-eol
