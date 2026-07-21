@@ -8,6 +8,10 @@ This repository is the public Build Week demo package. It demonstrates the real
 v3 pipeline on a compact WikiText-only corpus so judges can run it quickly from
 a fresh clone.
 
+## How GPT-5.6 Sol with Codex was used
+
+AshiraTokenizer v3 was built through an operator-led AI engineering workflow. GPT-5.6 Sol with Codex served as the primary implementation agent, generating and modifying the Rust code, tests, CLI commands, documentation updates, and demo pipeline from a governed specification. My role was not traditional hand-coding; I acted as operator and designer: defining requirements, directing the Codex sessions, reviewing outputs, cross-checking results with GPT-55, rejecting weak or unsupported claims, and enforcing traceability, tests, hashes, and evidence before accepting changes. The base directive used to constrain the coding agent is included in `CODEX_DIRECTIVE.txt`.
+
 ## What This Demo Shows
 
 - Manifest-bound corpus admission.
