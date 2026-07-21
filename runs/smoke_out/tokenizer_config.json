@@ -1,0 +1,16 @@
+{
+  "project": "AshiraTokenizer_v2",
+  "vocab_size": 320,
+  "merge_count": 44,
+  "min_frequency": 2,
+  "training_files": 3,
+  "training_bytes": 327,
+  "loaded_sequences": 8,
+  "loaded_tokens": 316,
+  "skipped_lines": 3,
+  "accelerator": "cpu",
+  "allow_cpu_fallback": false,
+  "deterministic": true,
+  "hash_fnv1a64": "ebbb80fb2f3dd926",
+  "timestamp_epoch": 1772520171
+}

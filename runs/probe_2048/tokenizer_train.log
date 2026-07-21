@@ -1,0 +1,2 @@
+[1772520524] [INFO] run started accelerator=cpu vocab_size=2048 min_freq=2 vram_budget=0.9 allow_cpu_fallback=false
+[1772520728] [INFO] complete vocab=2048 merges=1772 duration=82s
